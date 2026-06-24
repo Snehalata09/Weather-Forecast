@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="105dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:background="@drawable/bg_glass_card"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:gravity="center">
+
+    <!-- Day / Time -->
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mon, 3 PM"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Condition Icon -->
+    <ImageView
+        android:id="@+id/imgForecastIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_sun"
+        android:contentDescription="Forecast Weather Icon"/>
+
+    <!-- Temperature -->
+    <TextView
+        android:id="@+id/tvForecastTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25°C"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Condition Text -->
+    <TextView
+        android:id="@+id/tvForecastCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunny"
+        android:textColor="@color/text_secondary"
+        android:textSize="11sp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+</LinearLayout>

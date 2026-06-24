@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowAnimationStyle">@style/WindowAnimations</item>
+    </style>
+
+    <style name="WindowAnimations">
+        <item name="android:windowEnterAnimation">@anim/fade_in_zoom</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+</resources>

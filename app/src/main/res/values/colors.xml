@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- New Vibrant Blue Palette -->
+    <color name="button_start">#4facfe</color>
+    <color name="button_end">#00f2fe</color>
+
+    <color name="field_background">#26FFFFFF</color>
+    <color name="glass_card_bg">#33FFFFFF</color>
+    <color name="glass_card_border">#4DFFFFFF</color>
+    <color name="text_secondary">#CCFFFFFF</color>
+
+    <color name="accent_color">#FFD700</color> <!-- Gold for icons etc -->
+</resources>
